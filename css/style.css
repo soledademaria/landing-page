@@ -1,0 +1,90 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 3rem;
+}
+.logo-container span{
+    color: #3A404E;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+.nav-tabs{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.nav-tabs a{
+    color: #667085;
+}
+.nav-actions{
+    display: flex;
+    gap: 20px;
+}
+.sign{
+    outline: none;
+    background: none;
+    border: none;
+}
+.sign a{
+    color: #667085;
+}
+.register{
+    gap: 20px;
+    outline: none;
+    border: none;
+    background: #8E2424;
+    border-radius: 8px;
+    height: 3rem;
+}
+.register a{
+    color: #fff;
+    padding: 10px 18px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+}
+.header span{
+    color: #8E2424;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.header h1{
+    color: #101828;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+}
+.header p{
+    width: 50rem;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #667085;
+}
