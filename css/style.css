@@ -88,3 +88,108 @@ a{
     line-height: 30px;
     color: #667085;
 }
+.metricas-container{
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    padding: 0 90px;
+}
+.metricas-container h2{
+    color: #8E2424;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+}
+.metricas-container span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+}
+.metricas-container p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+}
+.first-metric, .second-metric, .third-metric, .fourth-metric{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.vacancies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 90px 40px;
+}
+.vacancies span{
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    padding: 5px 20px;
+    color: #8E2424;
+}
+.vacancies .heading{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #101828;
+}
+.infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.infos p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #667085;
+}
+.open-vacancies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content .title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #101828;
+    margin-bottom: 20px;
+}
+.job-post{
+    margin: 20px 0;
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 24px 28px;
+    gap: 24px;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+}
+.title-vacancie{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+}
+.details{
+    display: flex;
+    gap: 40px;
+}
+.details span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+}
